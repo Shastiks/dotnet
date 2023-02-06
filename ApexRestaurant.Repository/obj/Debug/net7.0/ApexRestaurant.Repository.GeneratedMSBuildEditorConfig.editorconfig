@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ApexRestaurant.Repository
-build_property.ProjectDir = c:\Users\shast\ApexRestaurent\ApexRestaurant.Repository\
+build_property.ProjectDir = C:\Users\shast\dotnet\ApexRestaurant.Repository\

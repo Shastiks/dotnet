@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shast\\ApexRestaurent\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {}
+    "C:\\Users\\shast\\dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shast\\ApexRestaurent\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+    "C:\\Users\\shast\\dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shast\\ApexRestaurent\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\shast\\dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "projectName": "ApexRestaurant.Repository",
-        "projectPath": "C:\\Users\\shast\\ApexRestaurent\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectPath": "C:\\Users\\shast\\dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "packagesPath": "C:\\Users\\shast\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shast\\ApexRestaurent\\ApexRestaurant.Repository\\obj\\",
+        "outputPath": "C:\\Users\\shast\\dotnet\\ApexRestaurant.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shast\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
